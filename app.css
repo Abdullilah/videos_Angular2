@@ -1,163 +1,163 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body{
-    background-color: #dcdcdc;
+  background-color: #dcdcdc;
 }
 
 .section{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 i:hover{
-    color: #DDD;
-    cursor: pointer;
+  color: #DDD;
+  cursor: pointer;
 }
 
 .navbar .navbar-brand img{
-    width: 70px;
-    margin-top: -4px;
+  width: 70px;
+  margin-top: -4px;
 }
 
 .navbar .form-group .form-control{
-    width: 295px;
+  width: 295px;
 }
 
 .navbar .form-group i{
-    margin-left: -30px;
+  margin-left: -30px;
     
 }
 
 .navbar .navbar-nav i{
-    line-height: 1.75em;
-    margin-right: 10px;
-    margin-left: 10px;
+  line-height: 1.75em;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 
 .navbar .navbar-nav img{
-    width: 40px;
-    border-radius: 50%;
-    margin-top: 5px;
-    cursor: pointer;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .main-page{
-    padding: 20px
+  padding: 20px
 }
 
 .main-page video{
-    width: 100%;
-    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-page .VideoInfo{
-    margin: 20px auto;
-    width: 100%;
-    background-color: #FFF;
-    border-radius: 30px;
-    border-top-left-radius: 0;
-    padding: 0 20px 10px;
-    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px auto;
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  padding: 0 20px 10px;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-page .VideoInfo h3{
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .main-page .list-videos {
-    padding: 10px;
-    color: #fff;
-    background-color: #333;
-    max-height: 440px;
-    overflow-y: scroll;
-    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  color: #fff;
+  background-color: #333;
+  max-height: 440px;
+  overflow-y: scroll;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-page .list-videos ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main-page .list-videos ul li{
-    margin-bottom: 10px;
-    background-color: #555;
-    padding: 5px;
-    cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #555;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .main-page .list-videos ul li.act{
-    background-color: #888;
+  background-color: #888;
 }
 
 .main-page .list-videos ul img{
-    width: 100%;
+  width: 100%;
 }
 
 .main-page .list-videos ul .img-text{
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .main-page .list-videos ul .img-text .title{
-    font-size: 13px;
-    font-weight: bold;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .main-page .list-videos ul .img-text .desc{
-    font-size: 11px;
-    margin-bottom: 0;
+  font-size: 11px;
+  margin-bottom: 0;
 }
 
 .main-page .comments{
-    background-color: #fff;
-    margin: 20px 0;
-    padding: 20px 20px 0;
-    border-radius: 30px;
-    border-top-left-radius: 0;
-    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px 20px 0;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-page .comments ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .main-page .comments .one-comment img{
-    width: 75px;
-    border-radius: 50%;
-    display: inline-block;
-    float: left;
-    margin-right: 20px;
-    border: 2px solid #ee5e5e;
+  width: 75px;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  border: 2px solid #ee5e5e;
 }
 
 .main-page .comments .one-comment .comment-des{
-    float: left;
+  float: left;
 }
 
 .main-page .comments .one-comment .comment-des h4{
-    color: #f66666;
-    font-weight: bold;
-    float: left;
-    margin-top: 0;
+  color: #f66666;
+  font-weight: bold;
+  float: left;
+  margin-top: 0;
 }
 
 .main-page .comments .one-comment .comment-des p{
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .main-page .comments .one-comment .comment-des .date{
-    margin-left: 10px;
-    color: #b0b0b0;
+  margin-left: 10px;
+  color: #b0b0b0;
 }
 
 .main-page .comments .one-comment .comment-des i{
-    margin-right: 10px;
-    font-size: 20px;
+  margin-right: 10px;
+  font-size: 20px;
 }

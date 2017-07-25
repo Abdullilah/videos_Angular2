@@ -4,27 +4,27 @@ import {Component, Input, OnInit} from 'angular2/core';
     selector: 'comments',
     template: `
         <div class="comments">
-            <div class="row">
-                <ul>
-                    <li *ngFor="#comment of selectedComments">
-                        <div class="col-xs-12 one-comment">
-                            <img src="{{comment.src}}">
-                            <div class="comment-des">
-                                <h4>{{comment.writer}}</h4>
-                                <span class="date">{{comment.date}}</span>
-                                <div>
-                                    <p>{{comment.desc}}</p>
-                                    <span>{{comment.likes}}</span>
-                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                    <span>{{comment.unlikes}}</span>
-                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                                </div>
-                                <hr>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+          <div class="row">
+            <ul>
+              <li *ngFor="#comment of selectedComments">
+                <div class="col-xs-12 one-comment">
+                  <img src="{{comment.src}}">
+                  <div class="comment-des">
+                    <h4>{{comment.writer}}</h4>
+                    <span class="date">{{comment.date}}</span>
+                    <div>
+                      <p>{{comment.desc}}</p>
+                      <span>{{comment.likes}}</span>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                      <span>{{comment.unlikes}}</span>
+                      <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
     `,
 

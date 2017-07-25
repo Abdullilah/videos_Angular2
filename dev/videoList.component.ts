@@ -4,22 +4,22 @@ import {Component, Output, EventEmitter, Input} from 'angular2/core';
     selector: 'videoList',
     template: `
         <ul>
-            <li *ngFor="#video of contacts" [class.act]="video === selected">
-                <div class="one-video" (click)="videoSlected(video)">
-                    <div class="row section">
-                        <div class="col-xs-4 section">
-                            <img src="images/{{video.src}}" alt="{{video.alt}}">
-                        </div>
-                        <div class="col-xs-8 section">
-                            <div class="img-text">
-                                <p class="title">{{video.title}}</p>
-                                <p class="desc">{{video.desc}}</p>
-                                <p class="desc">{{video.views}} Views</p>
-                            </div>
-                        </div>
-                    </div>
+          <li *ngFor="#video of contacts" [class.act]="video === selected">
+            <div class="one-video" (click)="videoSlected(video)">
+              <div class="row section">
+                <div class="col-xs-4 section">
+                  <img src="images/{{video.src}}" alt="{{video.alt}}">
                 </div>
-            </li>
+                <div class="col-xs-8 section">
+                  <div class="img-text">
+                    <p class="title">{{video.title}}</p>
+                    <p class="desc">{{video.desc}}</p>
+                    <p class="desc">{{video.views}} Views</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
         
         

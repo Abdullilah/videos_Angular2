@@ -8,32 +8,32 @@ import {Contact} from "./contact";
     selector: 'mainPage',
     template: `
     <div class="main-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8 section">
-                    <video width="400" [src]="selectedVideo.vid" controls>
-                        Your browser does not support HTML5 video.
-                    </video>
-                    <div class="col-xs-8 section VideoInfo">
-                        <h3>{{selectedVideo.title}}</h3>
-                        <p class="desc">{{selectedVideo.desc}}</p>
-                        <p class="desc">{{selectedVideo.views}} Views</p>
-                        <span>{{selectedVideo.likes}}</span>
-                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                        <span>{{selectedVideo.unlikes}}</span>
-                        <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 section">
-                    <div class="list-videos">
-                        <videoList [contacts]=contacts (passedVideo)="selectedVideo=$event"></videoList>
-                    </div>
-                </div>
-                <div class="col-xs-8 section">
-                    <comments [id]="idValue"></comments>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 section">
+            <video width="400" [src]="selectedVideo.vid" controls>
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="col-xs-8 section VideoInfo">
+              <h3>{{selectedVideo.title}}</h3>
+              <p class="desc">{{selectedVideo.desc}}</p>
+              <p class="desc">{{selectedVideo.views}} Views</p>
+              <span>{{selectedVideo.likes}}</span>
+              <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+              <span>{{selectedVideo.unlikes}}</span>
+              <i class="fa fa-thumbs-down" aria-hidden="true"></i>
             </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 section">
+            <div class="list-videos">
+              <videoList [contacts]=contacts (passedVideo)="selectedVideo=$event"></videoList>
+            </div>
+          </div>
+          <div class="col-xs-8 section">
+            <comments [id]="idValue"></comments>
+          </div>
         </div>
+      </div>
     </div>
     `,
     directives: [VideoListComponent, CommentsComponent],
