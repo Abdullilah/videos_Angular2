@@ -20,7 +20,7 @@ import {Contact} from "./contact";
                         <videoList [contacts]=contacts (passedVideo)="selectedVideo=$event"></videoList>
                     </div>
                 </div>
-                <div class="col-xs-12 section">
+                <div class="col-xs-8 section">
                     <comments></comments>
                 </div>
             </div>
