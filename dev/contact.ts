@@ -1,10 +1,12 @@
 export interface Contact{
+  id: string,
   vid: string,
   src: string,
   alt: string,
   title: string,
   desc: string,
   views: string,
-  active: string
+  likes: string,
+  unlikes: string
 }
 

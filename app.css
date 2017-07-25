@@ -11,24 +11,31 @@ body{
     padding: 0;
 }
 
+i:hover{
+    color: #DDD;
+    cursor: pointer;
+}
+
 .navbar .navbar-brand img{
     width: 70px;
     margin-top: -4px;
 }
 
 .navbar .form-group .form-control{
-    width: 400px;
+    width: 295px;
 }
 
 .navbar .form-group i{
     margin-left: -30px;
+    
 }
 
 .navbar .navbar-nav i{
     line-height: 1.75em;
     margin-right: 10px;
-    cursor: pointer;
+    margin-left: 10px;
 }
+
 
 .navbar .navbar-nav img{
     width: 40px;
@@ -37,8 +44,27 @@ body{
     cursor: pointer;
 }
 
+.main-page{
+    padding: 20px
+}
+
 .main-page video{
     width: 100%;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-page .VideoInfo{
+    margin: 20px auto;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    padding: 0 20px 10px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-page .VideoInfo h3{
+    font-weight: bold;
 }
 
 .main-page .list-videos {
@@ -47,6 +73,7 @@ body{
     background-color: #333;
     max-height: 440px;
     overflow-y: scroll;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-page .list-videos ul{
@@ -90,8 +117,9 @@ body{
     background-color: #fff;
     margin: 20px 0;
     padding: 20px 20px 0;
-    border-radius: 100px;
+    border-radius: 30px;
     border-top-left-radius: 0;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-page .comments ul{
@@ -132,5 +160,4 @@ body{
 .main-page .comments .one-comment .comment-des i{
     margin-right: 10px;
     font-size: 20px;
-    cursor: pointer;
 }

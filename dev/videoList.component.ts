@@ -1,10 +1,10 @@
-import {Component, OnInit, Output, EventEmitter, Input} from 'angular2/core';
+import {Component, Output, EventEmitter, Input} from 'angular2/core';
 
 @Component({
     selector: 'videoList',
     template: `
         <ul>
-            <li *ngFor="#video of contacts" class="{{video.active}}">
+            <li *ngFor="#video of contacts" [class.act]="video === selected">
                 <div class="one-video" (click)="videoSlected(video)">
                     <div class="row section">
                         <div class="col-xs-4 section">
@@ -25,14 +25,14 @@ import {Component, OnInit, Output, EventEmitter, Input} from 'angular2/core';
         
     `,
 })
-export class VideoListComponent implements OnInit{
+export class VideoListComponent{
     @Output() passedVideo = new EventEmitter<any>();
-    @Input() contacts : Array<{vid: string, src: string, alt: string, title: string, desc: string, views: string, active: string}> = [];
+    @Input() contacts : Array<{id:string, vid: string, src: string, alt: string, title: string, desc: string, views: string, active: string}> = [];
+    public selected: {};
     
     videoSlected(video: {}){
+        this.selected = video;
         this.passedVideo.emit(video);
     }
-    
-    
 
 }
