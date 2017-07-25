@@ -9,12 +9,12 @@ import {VideoListComponent} from "./videoList.component";
             <div class="row">
                 <div class="col-xs-12 col-sm-8 section">
                     <video width="400" controls>
-                      <source src="images/{{inputValue.vid}}" type="video/mp4">
+                      <source src="images/{{selectedVideo.vid}}" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-xs-12 col-sm-4 section">
                     <div class="list-videos">
-                        <videoList [selectedVideo]="selectedVideo" (update)="countChange($event)"></videoList>
+                        <videoList (update)="countChange($event)"></videoList>
                     </div>
                 </div>
                 <input value="{{selectedVideo.vid}}" #inputValue>

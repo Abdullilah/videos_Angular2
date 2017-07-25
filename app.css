@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+.section{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-brand img{
+    width: 70px;
+    margin-top: -4px;
+}
+
+.navbar .form-group .form-control{
+    width: 400px;
+}
+
+.navbar .form-group i{
+    margin-left: -30px;
+}
+
+.navbar .navbar-nav i{
+    line-height: 1.75em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.main-page video{
+    width: 100%;
+}
+
+.main-page .list-videos {
+    padding: 10px;
+    color: #fff;
+    background-color: #333;
+}
+
+.main-page .list-videos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-page .list-videos ul li{
+    margin-bottom: 10px;
+    background-color: #555;
+    padding: 5px;
+}
+
+.main-page .list-videos ul li.act{
+    background-color: #888;
+}
+
+.main-page .list-videos ul img{
+    width: 100%;
+}
+
+.main-page .list-videos ul .img-text{
+    margin-left: 10px;
+}
+
+.main-page .list-videos ul .img-text .title{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.main-page .list-videos ul .img-text .desc{
+    font-size: 11px;
+    margin-bottom: 0;
+}
